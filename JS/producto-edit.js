@@ -10,7 +10,7 @@ nombre:"",
 imagen:"",
 stock:0,
 precio:0,
-url:'http://maximilianomerele88.pythonanywhere.com/productos/'+id,
+url:'https://maximilianomerele88.pythonanywhere.com/productos/'+id,
 }
 },
 methods: {
