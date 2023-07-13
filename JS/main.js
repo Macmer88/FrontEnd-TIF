@@ -2,23 +2,25 @@
 El código se encarga de asignar el contenido HTML al elemento con el id "header", lo que resulta en la visualización de la barra de navegación en ese lugar dentro del documento HTML.
 */
 document.getElementById(
-    "header"
-  ).innerHTML = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img width=180px heigth=100px src= ../imagenes/logo.png></a>
-    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-           
-        
-        </ul>
-        <form class="d-flex my-2 my-lg-0">
-            <input class="form-control me-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  "header"
+).innerHTML = ` <nav class="navbar navbar-expand-sm navbar-dark bg-dark navegacion">
+<div class="container">
+  <a class="navbar-brand" href="index.html">    <img src="imagenes/logo.png" alt="logo" width=140px" ></a>
+  
+          </li>
+      </ul>
+      </form>
+      <div class="container-fluid">
+  <form class="d-flex">
+      <input class="form-control me-2 light-table-filter" data-table="table_id" type="text" 
+      placeholder="Buscar producto...">
+      <hr>
+      </form>
+  </div>
+</div>
+</nav>
+`;
+
     </div>
   </div>
   </nav>
