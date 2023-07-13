@@ -11,7 +11,7 @@ createApp({
       imagen: "",
       stock: 0,
       precio: 0,
-      url: "http://localhost:5000/productos/" + id,
+      url: "https://maximilianomerele88.pythonanywhere.com/productos/" + id,
     };
   },
   methods: {
