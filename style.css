@@ -1,0 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.nuevo{
+    position: sticky;
+    top:165px;
+    padding: 10px;
+}
+
